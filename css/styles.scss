@@ -121,7 +121,9 @@ header h2 {
     /* background-color: #0f0; */
     font-weight: bolder;
     font-size: 36px;
-    width: fit-content;
+     width: max-content;
+     width: -moz-fit-content;
+     width: -webkit-fit-content;
     text-decoration: none;
     background-color: $bk-links-hover;
     transition: ease-in 0.5s;
