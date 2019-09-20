@@ -68,8 +68,8 @@ div #blog-image {
 }
 
 #blog-image {
-  -webkit-background-image: url("/images/helloworld.jpg");
-  background-image: url("/images/helloworld.jpg");
+  -webkit-background-image: url("images/helloworld.jpg");
+  background-image: url("images/helloworld.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
