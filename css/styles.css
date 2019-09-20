@@ -1,0 +1,189 @@
+@import url("https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css");
+@import url("https://fonts.googleapis.com/css?family=Chilanka|Roboto&display=swap");
+@import url("https://use.fontawesome.com/releases/v5.10.2/css/all.css");
+.what-i-want, .what-i-do, .who-i-am, .home {
+  font-weight: bold;
+  font-size: 14px;
+  width: fit-content;
+  transition: ease-in 0.5s;
+  transition-delay: 0s;
+  background-color: #000;
+  border-radius: 30px;
+  overflow: hidden;
+  margin: 1px;
+  padding: 10px;
+}
+
+.home {
+  color: #ffffff;
+  font-size: 16px;
+}
+
+.who-i-am {
+  color: red;
+  font-size: 16px !important;
+}
+
+.what-i-do {
+  color: green;
+  font-size: 16px !important;
+}
+
+.what-i-want {
+  color: red;
+  font-size: 16px !important;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.content {
+  margin-top: 10%;
+  margin-bottom: 20%;
+}
+
+i {
+  font-size: 32px;
+  padding: 10px;
+  display: inline;
+}
+
+a > .fa-twitter-square {
+  color: #be4adb;
+}
+
+a > .fa-linkedin {
+  color: #000000;
+}
+
+/* ------------My blog------------- */
+div #blog-image {
+  height: 400px;
+  width: 100%;
+  padding: auto;
+  margin: auto;
+}
+
+#blog-image {
+  -webkit-background-image: url("/images/helloworld.jpg");
+  background-image: url("/images/helloworld.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
+header h2 {
+  padding: 10px;
+  margin: 9px 0px;
+}
+
+.title {
+  padding: 10px;
+  margin: 15px 0px;
+  text-decoration: underline;
+  text-decoration-color: #0f0;
+  font-weight: bold;
+  width: auto;
+}
+.title:hover {
+  /* background-color: #0f0; */
+  font-weight: bolder;
+  font-size: 36px;
+  width: fit-content;
+  text-decoration: none;
+  background-color: rgba(0, 255, 0, 0.35);
+  transition: ease-in 0.5s;
+  transition-delay: 0s;
+  border-radius: 30px;
+  overflow: hidden;
+}
+
+/* -------------------------------- */
+/* ------------------ profile.html */
+table {
+  width: 50%;
+  display: inline;
+  position: relative;
+}
+
+figure {
+  margin: 10px 0px;
+}
+figure figcaption {
+  color: #be4adb;
+}
+
+@media screen and (max-width: 768px) {
+  audio {
+    width: -moz-available;
+    width: -webkit-fill-available;
+  }
+}
+#profile {
+  top: 5%;
+  position: relative;
+  margin: 25px;
+  padding: 10px;
+  /* left: 25%;
+  right: 25%; */
+}
+
+#text-italic {
+  font-style: italic;
+}
+
+.introduction {
+  position: relative;
+  text-align: center;
+}
+
+tr th {
+  border: none;
+}
+
+.rounded-circle {
+  border: 5px solid grey;
+  /* height: auto !important; */
+  /* width: auto !important; */
+}
+
+/* ---------------- */
+/* -----------------popup------------------- */
+#popup {
+  display: block;
+  /* visibility: hidden; */
+  justify-content: center;
+  left: 25%;
+  right: 25%;
+  width: 50%;
+  height: 260px;
+  position: relative;
+  border: 1px solid #000;
+  border-radius: 10px;
+  background-color: #be4adb4d;
+}
+
+/* -------footer----------- */
+footer {
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  height: 11%;
+  background-color: #ffe3ff;
+  margin-bottom: 0px;
+}
+footer > p {
+  text-align: center;
+  font-family: "Chilanka";
+  font-weight: bold;
+  margin: 0px 0px;
+  padding: 10px;
+  position: relative;
+}
+
+/* -------------------------- */
+
+/*# sourceMappingURL=styles.css.map */
